@@ -40,3 +40,39 @@
 /* --------------------- */
 /* Additional styles for the digital business card */
 
+.profile-container > img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+.profile-details {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.profile-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-button-container > button {
+  width: 100%;
+
+  padding: 10px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.profile-button-container > button > img {
+  width: 15px;
+  height: 15px;
+}
