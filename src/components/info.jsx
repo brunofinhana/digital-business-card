@@ -1,5 +1,5 @@
-import emailLogo from '../logos/Email Icon.png';
-import linkedInLogo from '../logos/Linkedin Icon.svg';
+import emailLogo from '../assets/logos/email-icon.png';
+import linkedInLogo from '../assets/logos/linkedin-icon.svg';
 import maleYoung from '../assets/profilePics/male-young.jpg';
 
 export default function Info() {
