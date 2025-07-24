@@ -1,13 +1,16 @@
 import './App.css';
-import Info from './components/info';
-import About from './components/about';
-import Interests from './components/interests';
-import Footer from './components/footer';
+import Info from './components/Info.jsx';
+import About from './components/About.jsx';
+import Interests from './components/Interests.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <Info />
+    <div className='componentsHolder'>
+      <Info 
+        userName="Bruno Finhana"
+        occupation="Systems Analyst"
+      />
       <About />
       <Interests />
       <Footer />

@@ -1,12 +1,8 @@
-import '../App.css';
-
 export default function About() {
-  return (
-    <div className="about">
-      <h1>About</h1>
-      <p>
-        I am a frontend developer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.
-      </p>
-    </div>
-  );
+    return(
+        <div className="aboutHolder">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis error distinctio assumenda nostrum sequi recusandae veniam, culpa exercitationem. Dignissimos sint laborum inventore commodi? Iste suscipit odit pariatur quae libero laboriosam?</p>
+        </div>
+    )
 }

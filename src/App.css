@@ -1,91 +1,18 @@
-.App {
-  text-align: center;
+body {
+    background-color: #23252C;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.componentsHolder {
+    background-color: #1a1b21;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Header Component */
+.profilePicHolder {
+    width: 150px;
+    height: 175px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* --------------------- */
-/* Additional styles for the digital business card */
-
-.profile-container {
-  /* width: 40vw; */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- 
-}
-
-.profile-image {
-  width: 100%;
-
-  
-
-  border-radius: 5px;
-}
-
-.profile-details {
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.profile-button-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-}
-
-.profile-button-container > button {
-  width: 100%;
-
-  padding: 10px;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
-.profile-button-container > button > img {
-  width: 15px;
-  height: 15px;
+    background-image: url("../src/assets/profilePics/user1.jpg");
+    background-size: cover;
+    background-position: 0 0;
+    background-repeat: no-repeat;
 }
