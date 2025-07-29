@@ -1,0 +1,22 @@
+let candidates = [];
+
+export default candidates = [
+    {
+        name:"Bruno Finhana",
+        occupation:"Systems Analyst",
+        email:"bruno@test.com",
+        linkedin_link:"linkedin.com/bruno",
+        about:"I'm currently working as a systems analyst and I'm graduating from Software Engineering. My job involves executing tasks in both the technical and business sides, identifying the user needs while creating value for the company. I also communicate with multidisciplinary teams so I can understand their obstacles and help exceeding the expectations of the project deliveries.",
+        interests:[
+            "Computer Science",
+            "Marketing",
+            "Graphic Design",
+            "User Experience",
+            "Project and Product Management"
+        ],
+        twitter_link:"www.twitter.com/Bruno",
+        facebook_link:"www.facebook.com/Bruno",
+        instagram_link:"www.instagram.com/Bruno",
+        github_link:"www.github.com/Bruno"
+    }
+]
